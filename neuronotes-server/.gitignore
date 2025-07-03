@@ -1,0 +1,14 @@
+# neuronotes-server/.gitignore
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+
+# Ignore SQLite DB (optional)
+db.sqlite3
+
+# Ignore .env file (contains secrets like API keys)
+.env
